@@ -1,0 +1,38 @@
+#hello {
+  margin-top: 200px;
+  background-color: rgb(117, 117, 210);
+  width: 500px;
+  padding-bottom: 25px;
+  padding-top: 1px;
+}
+button,
+input {
+  border: 0;
+  padding: 17px;
+  border-radius: 17px;
+  font-weight: 600;
+  background-color: peachpuff;
+}
+body {
+  background-color: lightblue;
+  color: orange;
+}
+
+#add {
+  margin-left: 13px;
+}
+input {
+  width: 150px;
+}
+.button {
+  width: 40px;
+  height: 20px;
+  font-size: 9px;
+  padding: 0;
+}
+li {
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

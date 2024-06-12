@@ -1,0 +1,12 @@
+body {
+  background-color: khaki;
+  color: darkorange;
+}
+button,
+select {
+  border: 0;
+  padding: 17px;
+  border-radius: 17px;
+  font-weight: 600;
+  background-color: peachpuff;
+}

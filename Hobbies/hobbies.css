@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 320px;
+  width: 320px;
+}
+button {
+  height: 50px;
+  width: 70px;
+}
+
+.left-container {
+  width: 40%;
+}
+button {
+  border: 0;
+  padding: 17px;
+  border-radius: 17px;
+  font-weight: 600;
+  background-color: peachpuff;
+  width: 100px;
+  height: 60px;
+}

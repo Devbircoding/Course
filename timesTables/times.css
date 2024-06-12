@@ -1,0 +1,17 @@
+button,
+input {
+  border: 0;
+  padding: 17px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: peachpuff;
+}
+.original {
+  margin-top: 250px;
+  background-color: darkslateblue;
+  width: 400px;
+  color: orange;
+}
+body {
+  background-color: lightblue;
+}
