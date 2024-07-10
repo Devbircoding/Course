@@ -1,13 +1,22 @@
 body {
-  background-color: khaki;
+  background-color: oldlace;
   color: darkorange;
+  margin: 0;
+}
+.photoandDescription {
+  display: flex;
+  justify-content: space-evenly;
+}
+#main-photo {
+  margin-left: 2;
+  margin-right: 3;
 }
 
 a {
   text-decoration: none;
 }
 
-img {
+#main-photo {
   border-radius: 50%;
 }
 .porthead {
@@ -21,8 +30,9 @@ img {
   display: flex;
 }
 .topnav {
-  background-color: #333;
+  background-color: cornflowerblue;
   overflow: hidden;
+  display: flex;
 }
 .topnav a {
   float: left;
@@ -31,4 +41,25 @@ img {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 0 0 25%;
+}
+.big3coding {
+  width: 50%;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex: 0 0 50%;
+  }
+}
+@media (max-width: 437px) {
+  .card {
+    flex: 0 0 100%;
+  }
 }
