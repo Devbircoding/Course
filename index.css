@@ -63,3 +63,13 @@ a {
     flex: 0 0 100%;
   }
 }
+.intoandSearch {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#projectHolder {
+  padding-top: 50px;
+}
+#contactDetails {
+  padding: 40px;
+}
