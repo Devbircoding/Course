@@ -8,9 +8,9 @@ input {
 }
 .original {
   margin-top: 250px;
-  background-color: darkslateblue;
+  background-color: white;
   width: 400px;
-  color: orange;
+  color: black;
 }
 body {
   background-color: lightblue;

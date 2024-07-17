@@ -16,6 +16,15 @@ const descripts = [
   "The Times Tables Finder is a project that was a segway into more expansive ways of using mathematical equations to help further projects get better and easier results in a short amount of time.",
   "The To-Do List Project was a project in which I explored how to make user added content integrate into the webpage so that they can use the webpage with infinite possibility, rather than being limited",
 ];
+const linkrefs = [
+  "Bulb/bulb.html",
+  "calculator/calculator.html",
+  "Search/seacrh.html",
+  "Hobbies/hobbies.html",
+  "Starwars/Starwars.html",
+  "timesTables/times.html",
+  "toDoList/todolist.html",
+];
 descripts.forEach((descript, index) => {
   const cardDiv = document.createElement("div");
   cardDiv.classList.add("card");
@@ -25,7 +34,7 @@ descripts.forEach((descript, index) => {
         <div class="card-body">
           <h5 class="card-title">${titles[index]}</h5>
           <p class="card-text">${descript}</p>
-          <a href="" class="btn btn-primary">Click</a>
+          <a href="${linkrefs[index]}" class="btn btn-primary">Click</a>
         </div>`;
   document.querySelector(".cards").appendChild(cardDiv);
 });

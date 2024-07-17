@@ -15,11 +15,14 @@ body {
 a {
   text-decoration: none;
 }
+p {
+  text-align: justify;
+}
 
 #main-photo {
   border-radius: 50%;
 }
-.porthead {
+.margin-bottom {
   margin-bottom: 30px;
 }
 #desc,
@@ -33,6 +36,7 @@ a {
   background-color: cornflowerblue;
   overflow: hidden;
   display: flex;
+  justify-content: center;
 }
 .topnav a {
   float: left;
@@ -64,7 +68,7 @@ a {
   }
 }
 .intoandSearch {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 #projectHolder {
@@ -72,4 +76,14 @@ a {
 }
 #contactDetails {
   padding: 40px;
+}
+#logo {
+  height: 53.5px;
+  width: 85px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.cards {
+  margin: 0 24px;
 }
